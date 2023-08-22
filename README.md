@@ -26,4 +26,4 @@ If you have any feedback, suggestions, or questions about the repository or the 
 
 Happy learning and designing!
 
-[Add your name or contact information here]
+[By DILSHAD NIRMAL](dilshadgov2020@gmail.com)
