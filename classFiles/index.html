@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Files</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Handjet&family=Noto+Serif+Vithkuqi&family=Oswald:wght@500&family=Poppins:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+
+        background-color: #001001;
+        /*
+        background: url(/images/example/vastSpace.jpg);
+        background-size: cover; Use 'cover' to scale the image to cover the entrie element
+        background-repeat: no-repeat;
+        background-attachment: fixed;Keeps the background fixed while scrolling*/
+    }
+
+    section {
+        display: grid;
+    }
+
+    header {
+        display: flex;
+        place-items: center;
+        justify-content:center;
+    }
+
+    h1 {
+        
+        margin: 20px;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 80px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width as needed */
+        gap: 20px;
+        padding: 20px;
+        /* background-color: #f2f2f2; */
+        place-items: center;
+    }
+
+    .grid-items {
+        background-color: #292725;
+        padding: 10px;
+        border-radius: 5px;
+        width: 200px;
+        height: 70px;
+    }
+
+    a {
+        text-decoration: none;
+        color: aliceblue;
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+<body>
+
+    <section>
+        
+        <header>
+            <h1>Class Files</h1>
+        </header>
+
+        <div class="grid-container">
+            <div class="grid-items">
+                <a href="../classFiles/1_blockVsInline/blockVsInline.html">Block Vs Inline</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/2_divElement/div.html">Div Element</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/3_textRelated/txtRelatedE.html">Text Related Element</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/4_separateContent/separateContent.html">Using Breaks To Separate Content</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/5_lists/lists.html">Lists</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/5_lists/lists2.html">Lists 2</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/6_forms&button/forms&buttons.html">Forms & Buttons</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/6_forms&button/forms&buttons2.html">Forms & Buttons 2</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/7_Tables/displayingTabularData.html">Displaying Tabular Data</a>
+            </div>
+            <div class="grid-items">
+                <a href="../classFiles/8_cssSelectors/cssSelectors.html">CSS Selectors</a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

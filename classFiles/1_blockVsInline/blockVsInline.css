@@ -1,0 +1,24 @@
+
+h1{
+    outline: red solid 2px;
+}
+
+h2{
+    outline: yellow solid 2px;
+}
+
+p{
+    outline: cornflowerblue solid 2px;
+}
+
+div{
+    outline: palevioletred solid 2px;
+}
+
+a{
+    outline: rosybrown dotted 2px;
+}
+
+span{
+    background-color: gold;
+}
