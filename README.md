@@ -4,7 +4,7 @@ Welcome to the Web Design Fundamentals repository! This repository contains clas
 
 ## Contents
 
-- [Class Files]([/class-files](https://github.com/DilshadNirmal/WebDesign/tree/main/classFiles)): This directory includes the class materials, presentations, and examples covered in the course.
+- [Class Files](https://github.com/DilshadNirmal/WebDesign/tree/main/classFiles): This directory includes the class materials, presentations, and examples covered in the course.
 
 - [Homework](/homework): This directory contains the assignments and projects assigned as homework. You can find detailed instructions and resources for each assignment here.
 
@@ -26,4 +26,5 @@ If you have any feedback, suggestions, or questions about the repository or the 
 
 Happy learning and designing!
 
-`By DILSHAD NIRMAL`
+>[!BY]
+>Dilshad Nirmal
