@@ -26,5 +26,4 @@ If you have any feedback, suggestions, or questions about the repository or the 
 
 Happy learning and designing!
 
-> [!BY]
-> Dilshad Nirmal
+**Author** : [_Dilshad Nirmal_](mailto:dilshadgov2020@gmail.com)
