@@ -136,7 +136,7 @@ An attribute contains additional information about that element.
 Information that doesn't appear in the actual content.
 One thing they have in common is their structure, each attribute has a name and most have at least one value.
 
-![[Ano_Att.png]]
+![[Ano_Att.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/Ano_Att.png)
 
 If the attribute has multiple values, we separate them with a space.
 
