@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML & CSS.md",
+                "file": "Intro to HTML & CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML.md",
+                "file": "Intro to HTML & CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML.md",
+                "file": "Intro to HTML & CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML.md"
+                "file": "Intro to HTML & CSS.md"
               }
             }
           }
@@ -161,8 +160,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b92d1dc529428cc",
+  "active": "bd02b5c6d2e37280",
   "lastOpenFiles": [
+    "HTML.md",
     "images/url.png",
     "images/SemanticElements.png",
     "images/self_C.png",
@@ -173,10 +173,8 @@
     "images/EssensInline.png",
     "images/essensBlock.png",
     "images/Emp_Att.png",
-    "images/DOM-model.svg",
     "images",
-    "HTML & CSS.md",
-    "HTML.md",
+    "Intro to HTML & CSS.md",
     "Untitled"
   ]
 }
