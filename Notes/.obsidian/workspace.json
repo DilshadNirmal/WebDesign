@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "3fe86f98d1d7040f",
+    "type": "split",
+    "children": [
+      {
+        "id": "c4347d3ca64a9f10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd02b5c6d2e37280",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML & CSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b92d1dc529428cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "acf5026757466fa0",
+    "type": "split",
+    "children": [
+      {
+        "id": "29221ec370a6876a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "968ed2cda56a90a5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6893bc457a8a2305",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "304d2ac79f883d98",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "0f1bc47164f89868",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca1675806d8ca5ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07a3944239c1a867",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "HTML.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7729977034143a9d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "HTML.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30341d92349cbfa2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "387b1ccf20dc7d64",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "HTML.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0b92d1dc529428cc",
+  "lastOpenFiles": [
+    "HTML & CSS.md",
+    "HTML.md",
+    "div_vs_semantics.png",
+    "nav.png",
+    "SemanticElements.png",
+    "EssensInline.png",
+    "inlineElement.png",
+    "essensBlock.png",
+    "blockElement.png",
+    "IL_v_B.png",
+    "Emp_Att.png",
+    "Ano_Att.png",
+    "Untitled"
+  ]
+}
