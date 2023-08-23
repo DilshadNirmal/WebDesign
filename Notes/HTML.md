@@ -180,7 +180,6 @@ To understand  how inline is different than block, you must understand how cont
 > block level elements can accept `width` and `height`, and also `margins` on the top and bottom.
 > inline elements `cannot accept that`.
 
-
 > *Block Level Element*
 
 ![[blockElement.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/blockElement.png)
