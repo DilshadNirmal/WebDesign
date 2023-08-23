@@ -114,7 +114,7 @@ An element is a paragraph or a heading or an image or any HTML building block ba
 **HTML Tag**
 however, html tags are part of the element.
 
-![[HTML_E&T.png]]
+![[HTML_E&T.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/HTML_E%26T.png)
 
 An Element is made of content placed between an opening and a closing tag.
 The two tags are the same except the closing one has a slash in front of the keyword.  
@@ -122,7 +122,7 @@ There are certain elements that are self-closing, which means they're missing th
 
 **Self Closing Tags**
 
-![[self_C.png]]
+![[self_C.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/self_C.png)
 
 > [!NOTE]
 > Elements that have no content are called empty elements.
@@ -131,7 +131,7 @@ There are certain elements that are self-closing, which means they're missing th
 
 An attribute contains additional information about that element.
 
-![[Attribute.png]]
+![[Attribute.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/Attribute.png)
 
 Information that doesn't appear in the actual content.
 One thing they have in common is their structure, each attribute has a name and most have at least one value.
@@ -143,7 +143,7 @@ If the attribute has multiple values, we separate them with a space.
 **Empty attributes**
 Some attributes are empty where only the name is displayed.
 
-![[Emp_Att.png]]
+![[Emp_Att.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/Emp_Att.png)
 
 Also in HTML, we have something called Data Attributes, which we can also be used without a value.
 
@@ -172,7 +172,7 @@ To understand  how inline is different than block, you must understand how cont
 > Inline --> associate it with same line i.e., Horizontal
 > Block --> associate it with Vertical
 
-![[IL_v_B.png]]
+![[IL_v_B.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/IL_v_B.png)
 
 > demo : 1_block Vs Inline
 
@@ -183,15 +183,15 @@ To understand  how inline is different than block, you must understand how cont
 
 > *Block Level Element*
 
-![[blockElement.png]]
+![[blockElement.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/blockElement.png)
 
-![[essensBlock.png]]
+![[essensBlock.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/essensBlock.png)
 
 > *Inline level Element*
 
-![[inlineElement.png]]
+![[inlineElement.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/inlineElement.png)
 
-![[EssensInline.png]]
+![[EssensInline.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/EssensInline.png)
 
 ```
 key takeaways
@@ -454,7 +454,7 @@ HTML5 represents a wider array of technologies that include `enhanced JavaScript
 Among the changes that came with HTML5, we can find a couple of new HTML elements.
 And these are called semantic elements.
 
-![[SemanticElements.png]]
+![[SemanticElements.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/SemanticElements.png)
 
 The full list is quite large, and honestly, there's no point in you learning all of the new elements.
 These are some of the most used semantic elements, and it's worth spending time to learn when to use each one.
@@ -469,14 +469,14 @@ A semantic element is hardly any different from a div, for example.
 The div element, the generic container, can hold any type of content. But the element itself, the div, doesn't offer any information regarding the nature of that content.
 On the other hand, a semantic element like nav, clearly describes its contents so that the developer and browser know that whatever is inside that nav is used for navigation.
 
-![[nav.png]]
+![[nav.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/nav.png)
 
 #### Why should we use semantic elements?
 
 First of all the code is easier to read.
 Notice how much easier to read and understand the code on the left, compared to one on the right.
 
-![[div_vs_semantics.png]]
+![[div_vs_semantics.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/div_vs_semantics.png)
 
 This is even more obvious when you're dealing with large amounts of code.
 And second of all they're better in terms of accessibility, assistive technologies like screen readers will be able to understand how the content is structured.
