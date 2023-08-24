@@ -289,3 +289,5 @@ Everything in CSS has a box around it, you must also understand that the box is 
 
 Have a Look at the CSS box model,..
 
+![[boxModel.png]]
+
