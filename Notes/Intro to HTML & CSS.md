@@ -75,7 +75,7 @@ Client is someone requesting the resource, and server is providing the resource.
 > [!NOTE]
 > DOM stands for Document Object Model and it basically represents all the building blocks of the webpage and their structure. So paragraphs, images, divs, headings and so on. All of these  are represented in the DOM.
 
-![[DOM-model.svg]]
+![[DOM-model.svg]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/DOM-model.svg)
 
 When the browser goes through the HTML file line by line and it constructs the DOM, it might get to certain resources that need to be loaded from the server.
 
@@ -90,7 +90,7 @@ Now-a-days, we use HTTPS a more secured version of communication.
 This whole address is called URL which Stands for Uniform Resource Locator. Think of it as the address of a unique resource on the web.
 Resources can be many things, `a Webpage`, `a Image`, `a CSS file`, `a Video file`, `a Audio file`, `a Font`, and so on.
 
-![[url.png]]
+![[url.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/url.png)
 
 >[!NOTE]
 >+ *scheme* : indicates the protocol or the language the browser uses to represent the sourse.
