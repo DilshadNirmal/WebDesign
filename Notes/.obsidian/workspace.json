@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Intro to HTML & CSS.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -175,11 +175,11 @@
   },
   "active": "447a226c45680f08",
   "lastOpenFiles": [
+    "Intro to HTML & CSS.md",
+    "CSS.md",
     "boxModel.png",
     "HTML.md",
-    "CSS.md",
     "sass&less.png",
-    "Intro to HTML & CSS.md",
     "images/url.png",
     "images/SemanticElements.png",
     "images/self_C.png",
@@ -188,7 +188,6 @@
     "images/IL_v_B.png",
     "images/HTML_E&T.png",
     "images/EssensInline.png",
-    "images/essensBlock.png",
     "images",
     "Untitled"
   ]

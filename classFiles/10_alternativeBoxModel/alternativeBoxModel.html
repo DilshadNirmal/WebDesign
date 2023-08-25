@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Setting Dimensions in CSS</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="../css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+		<style>
+
+* {
+				box-sizing: border-box;
+			}
+
+			.wrapper {
+				/* Don't worry about what flex or gap means. */
+				/* It's simply here for demo purposes. */
+				display: flex;
+				gap: 2rem;
+			}
+
+			.widget {
+				width: 100%;
+                /* width: auto; */
+				min-width: 250px;
+				max-width: 300px;
+				background-color: #F3F4F5;
+
+                /*lets add some padding*/
+
+                /* shorthand notation */
+				/*padding: top right bottom left*/
+
+                /*padding: top&bottom right&left*/
+
+                /*padding: top right&left bottom */
+
+			}
+
+			.widget img {
+				width: 4rem;
+			}
+
+			.main-icon {
+				/*The display property is used for demo purposes.*/
+				display: block;
+
+				/*marign property*/
+				
+				/*can also recieve negative values*/
+				
+				/* shorthand notation */
+				/*margin: top right bottom left*/
+
+				/*margin: top&bottom right&left*/
+			}
+
+			.widget p img {
+				width: 1.25rem;
+			}
+
+			.widget button img {
+				height: 1rem;
+			}
+			
+
+			.widget a {
+				background-color: bisque;
+				/* height: 100px;
+				width: 120px;
+				display: block; */
+			}
+
+
+			.widget button {
+				padding: 8px 24px;
+			}
+
+			.widget button img {
+				height: 1rem;
+			}
+
+			.widget h2,
+			.widget p {
+				margin: 0;
+			}
+
+			.widget h2 {
+				margin: .5rem 0;
+			}
+
+			.widget p {
+				margin-bottom: 2rem;
+			}
+
+			p img {
+				margin-right: .5rem;
+			}
+			
+		</style>
+	</head>
+	<body class="flip">
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<h1>Dashboard</h1>
+
+			<div class="wrapper">
+				<div class="widget">
+					<img src="../images/example/icon-money.svg" alt="Icon" class="main-icon">
+					<h2>$4,502</h2>
+					<p>Earned this month</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+6.05% <span>than last month</span></p>
+					<button><a href="#">Earnings <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a></button>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-sales.svg" alt="Icon" class="main-icon">
+					<h2>22</h2>
+					<p>New Sales</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+16.64% <span>than last month</span></p>
+					<button><a href="#">Sales <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a></button>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-chat.svg" alt="Icon" class="main-icon"> 
+					<h2>7</h2>
+					<p>New comments</p>
+					<p><img src="../images/example/icon-arrow-red.svg" alt="Arrow red"> -19% <span>than last month</span></p>
+					<button><a href="#">Comments <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a></button>
+				</div>
+			</div>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="Setting Dimensions in CSS">
+			<img width="971px" src="../images/reference/dashboard.png" alt="Reference image" />
+		</section>
+	</body>
+</html>

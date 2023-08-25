@@ -291,3 +291,67 @@ Have a Look at the CSS box model,..
 
 ![[boxModel.png]]
 
+> [!NOTE]
+> The _browser developer tools_ are actually a great way of learning about the box model and how each element is constructed, starting from the content box, going to the padding box, border box, and then margin box.
+
+> [!SIDE NOTE]
+> The contents showed above **applies 100%** to block level elements but it doesn't do all the way for inline elements.
+
+### Alternative Box model
+
+> demo : 10_AlternativeBoxModel
+
+The above mentioned `Box model` is the standard one, which can be done through CSS using,
+
+> _box-sizing_ = **content-box**
+
+which is default.
+
+So in the standard box model, which is used by default, setting a width or a height to an element actually sets it to the content box, not the element itself.
+
+>[!ADVICE]
+>Always use alternative box model
+
+### Margin and Padding properties
+
+> demo : 9_SettingDimensions
+
+Padding is a property that defines the space between an element's content and its inner edge.
+
+>[!NOTE]
+>The padding property can only accept positive numbers as a value.
+
+The margin box sits outside the border box, so its purpose is to add whitespace around an element.
+In CSS we often use that to create a certain distance between two elements.
+Unlike paddings, margin can also receive negative values.
+
+It's also very useful when you want to align two elements vertically and you need to nudge one of them up or down a couple of pixels.
+
+There are certain elements that are positioned a certain distance from one another by default, that's because the browser has a default style sheet that it applies to elements.
+
+#### Margin Collapsing
+
+When two elements with margins are next to each other and the margins touch, these will collapse, and the resulting margin will take the value of the highest margin of two.
+
+>[!KEEP IN MIND]
+>Be aware of margin collapsing, because you might get unexpected results.
+
+```
+key takeaways
+
+1. Everything in CSS has a `box` around it.
+2. That box is made up of other boxes, as defined by the `CSS box model`.
+3. A typical element has the following structure, moving from the inside outwards: `content box`, `padding box`, `border box` and `margin box`.
+4. The box model doesn't fully apply to `inline` elements.
+5. There are two types of box models: `standard` and `alternative`.
+6. if we set a width or height using the `standard` model, that width will only be applied to the `content box`. Any padding and borders will add `additional` size to the visible element.
+7. if we set a width or height using the `alternative` model, that width will be applied to the `entire visible element`. Any padding and borders will be `included` in that size.
+8. The `margin` property will determine the size of the `margin box`. You can use the `shorthand` property to affect `all box sides` at once, or the `longhand` for setting each side `individually`.
+9. CSS accepts `negative` values for `margin`.
+10. If you have two elements with margins that `touch`, those margins will `collapse` to a single one. The size of the final margin depends on the size of the individual margins and also their sign.
+11. The `padding` property will determine the size of the `padding box`. Just like margins, you can use either the `shorthand` or the `longhand` properties.
+12. CSS only accepts `positive` values for `padding`.
+```
+
+## Working with Borders in CSS
+
