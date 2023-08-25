@@ -289,7 +289,7 @@ Everything in CSS has a box around it, you must also understand that the box is 
 
 Have a Look at the CSS box model,..
 
-![[boxModel.png]]
+![[boxModel.png]](https://github.com/DilshadNirmal/WebDesign/blob/main/Notes/images/boxModel.png)
 
 > [!NOTE]
 > The _browser developer tools_ are actually a great way of learning about the box model and how each element is constructed, starting from the content box, going to the padding box, border box, and then margin box.
