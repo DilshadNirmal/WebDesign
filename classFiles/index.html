@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- contain meta information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Files</title>
@@ -46,76 +47,107 @@
 
     .grid-container {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust column width as needed */
+        /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/ /* Adjust column width as needed */
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
         padding: 20px;
         /* background-color: #f2f2f2; */
         place-items: center;
     }
 
-    .grid-items {
+    a {
+
+        box-sizing: border-box;
+
         background-color: #292725;
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
         border-radius: 5px;
-        width: 100%;
+        width: 20rem;
         height: 5rem;
 
         display: flex;
         justify-content: center;
         place-items: center;
-    }
 
-    a {
         text-decoration: none;
         color: aliceblue;
         font-family: 'Poppins', sans-serif;
     }
+
+    a:hover {
+        background-color: rgba(41, 39, 37, 0.692);
+        cursor: pointer;
+    }
+
+    @media (max-width :800px) {
+        .grid-container {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        a {
+            width: 18rem;
+        }
+    }
+
 </style>
 <body>
 
     <section>
         
         <header>
-            <h1>Class Files</h1>
+            <h1>Class Files 😁</h1>
         </header>
 
         <div class="grid-container">
-            <div class="grid-items">
+            
+            <div>
                 <a href="../classFiles/1_blockVsInline/blockVsInline.html">Block Vs Inline</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/2_divElement/div.html">Div Element</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/3_textRelated/txtRelatedE.html">Text Related Element</a>
             </div>
-            <div class="grid-items">
-                <a href="../classFiles/4_separateContent/separateContent.html">Using Breaks To Separate Content</a>
+
+            <div>
+                <a href="../classFiles/4_separateContent/separateContent.html">Separate Content</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/5_lists/lists.html">Lists</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/5_lists/lists2.html">Lists 2</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/6_forms&button/forms&buttons.html">Forms & Buttons</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/6_forms&button/forms&buttons2.html">Forms & Buttons 2</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/7_Tables/displayingTabularData.html">Displaying Tabular Data</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/8_cssSelectors/cssSelectors.html">CSS Selectors</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/9_settingDimensions/settingDimensions.html">Setting DImensions in CSS</a>
             </div>
-            <div class="grid-items">
+
+            <div>
                 <a href="../classFiles/10_alternativeBoxModel/alternativeBoxModel.html">Alternative Box Model</a>
             </div>
+
         </div>
     </section>
     

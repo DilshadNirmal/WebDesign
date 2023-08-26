@@ -355,3 +355,52 @@ key takeaways
 
 ## Working with Borders in CSS
 
+The third box in the box model is the box model is the border box, and you can control the size of that using border properties.
+
+> demo : 9_SetttingDimensions
+
+>[!REMEMBER]
+>The `dimensions` of the border box is dictated by _border properties_.
+
+```
+key takeaways
+
+1. You can control the size and apperance of the `border box` with the `border` properties.
+2. The `border-width` property controls the `thickness` or the `width` of an element's border.
+3. The `border-color` property defines the border `color`.
+4. The `border-style` property sets the `line-style` for an element's border. We can remove the border altogether with the value of `none`, or we can choose from the following values: `solid`, `dotted`, `dashed`, `double` and a few others.
+5. The `border-radius` property rounds the `corners` of an element's outer border edge.
+```
+
+There are few other ways of adding a border or what we perceive as a border around an element such as the outline property or the box shadow property.
+
+## Using the Display Property in CSS
+
+Before we start coding, we need to learn about the two display types, inner and outer.
+
+![[innerouter.png]]
+
+### Outer Display type
+
+> demo : 6_forms&buttons
+
+>[!NOTE]
+>_Inline block_ is kind of the middle point between inline and block.
+>With block elements, I can set width and height. And with inline elements, I can make two inline elements sit next to each other.
+
+### Inner Display type
+
+By default, they're laid out in normal flow just like the ones outside of the box.
+But the nice thing in CSS is that we can specify how the inner elements will be laid out using stuff like flex box or grid.
+
+> demo : 11_innerDisplayType
+
+```
+key takeaways
+
+1. In CSS, boxes have an `outer display type` which specifies whether the box is `block` or `inline`. But they also have an `innner display type` that dictates how the elements `inside` the box are laid out.
+2. The `display type` can be controlled through the `display` property.
+3. For the `outer type`, we can use values like `none`, `block`, `inline` and `inline-block`.
+4. The `inline-block` value allows an element to sit `next to other elements`, while also being able to accept a `width` and `height` and also display the top and bottom margin and padding correctly.
+5. For the `inner type`, we can use values like `flex` and `grid`, among a few others.
+```
