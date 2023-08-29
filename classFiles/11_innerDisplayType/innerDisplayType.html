@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>HTML and CSS for Complete Beginners: Example 3-10-2</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="../css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+            .wrapper {
+                /* display: flex; */
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+
+			.widget {
+				width: 100%;
+				min-width: 250px;
+				/* max-width: 300px; */
+				padding: 2rem;
+				border-width: 1px;
+				border-style: solid;
+				border-color: #DDDFE2;
+				border-radius: 4px;
+			}
+
+			.widget img {
+				width: 4rem;
+			}
+
+			.main-icon {
+				display: block;
+				margin-bottom: 2rem;
+			}
+
+			.widget p img {
+				width: 1.25rem;
+			}
+
+			.widget button img {
+				height: 1rem;
+			}
+
+			.widget button {
+				padding: 8px 24px;
+				border: 1px solid #3B4B59;
+				border-radius: 4px;
+				background-color: white;
+			}
+
+			.widget h2,
+			.widget p {
+				margin: 0;
+			}
+
+			.widget h2 {
+				/* Notice the collapsing margin */
+				margin: .5rem 0;
+			}
+
+			.widget p {
+				margin-bottom: 2rem;
+			}
+
+			.widget p img {
+				margin-right: 8px;
+			}
+		</style>
+	</head>
+	<body class="flip">
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<h1>Dashboard</h1>
+
+			<div class="wrapper">
+				<div class="widget">
+					<img src="../images/example/icon-money.svg" class="main-icon" alt="Icon">
+					<h2>$4,502</h2>
+					<p>Earned this month</p>
+					<p>
+						<img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+6.05% <span>than last month</span>
+					</p>
+					<button>
+						Earnings
+						<img src="../images/example/icon-arrow-right.svg" alt="Arrow right">
+					</button>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-sales.svg" class="main-icon" alt="Icon">
+					<h2>22</h2>
+					<p>New Sales</p>
+					<p>
+						<img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+16.64% <span>than last month</span>
+					</p>
+					<button>
+						Sales
+						<img src="../images/example/icon-arrow-right.svg" alt="Arrow right">
+					</button>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-chat.svg" class="main-icon" alt="Icon">
+					<h2>7</h2>
+					<p>New comments</p>
+					<p>
+						<img src="../images/example/icon-arrow-red.svg" alt="Arrow red"> -19% <span>than last month</span>
+					</p>
+					<button>
+						Comments
+						<img src="../images/example/icon-arrow-right.svg" alt="Arrow right">
+					</button>
+				</div>
+			</div>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="lesson 3-10: Using the Display Property in CSS">
+			<img width="971px" src="../images/reference/dashboard.png" alt="Reference image" />
+		</section>
+	</body>
+</html>

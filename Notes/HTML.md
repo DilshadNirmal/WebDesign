@@ -348,7 +348,7 @@ For still images, `JPEG` & `PNG` is a great option.
 
 You can set a width and height to an image by using the width and height attributes in HTML.
 You probably noticed is that the resizing was proportional.
-So, when we say make the `width` of this image `50%` , by default the browser will resize the image proportionally. It's gonna make the width the amount we want and the height will bel calculated automatically.
+So, when we say make the `width` of this image `50%` , by default the browser will resize the image proportionally. It's gonna make the width the amount we want and the height will be calculated automatically.
 
 > [!IMPORTANT]
 > I won't prefer use the sizing method for images in `HTML`, prefer to resize them from `CSS` and just keep the `HTML` for structure.

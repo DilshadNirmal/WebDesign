@@ -404,3 +404,82 @@ key takeaways
 4. The `inline-block` value allows an element to sit `next to other elements`, while also being able to accept a `width` and `height` and also display the top and bottom margin and padding correctly.
 5. For the `inner type`, we can use values like `flex` and `grid`, among a few others.
 ```
+
+## Styling Lists in CSS
+
+Lists are very common in web design and they are very versatile.
+
+> demo : 12_StylingLists
+
+```
+key takeaways
+
+1. In CSS, lists can be styled using the following properties: `list-style-image`, `list-style-position` and `list-style-type`. Alternatively, use the shorthand `list-style`.
+2. The `bullet point` or `number` in a list item can be `removed` by setting the `list-style` or `list-style-type` to `none`.
+3. You can use an `image` as a list item marker with the `list-style-image` property. However, this is `not recommended` since it produces inconsistent results.
+```
+
+## Positioning Elements in CSS
+
+> demo : 13_positioningElements
+
+### Static Positioning
+
+This is the default, and an element with position static uses the normal flow. And you cannot alter its position with the top, right, left, or bottom properties.
+
+### Relative Positioning
+
+With relative positioning, the element is also positioned using the normal flow of the document. But we can create offsets relative to itself by using the top, left, right and bottom properties.
+
+>[!NOTICE]
+>Elements around it are not affected, they maintain their original position.
+
+### Absolute positioning
+
+When we're using absolute positioning, the element is actually removed from the normal document flow, essentially it's floating, and it's positioned according to its nearest positioned ancestor.
+
+when you set top or left or some other position to some value (ex: `top: 50px`) is actually relative to its nearest positioned ancestor. Meaning the browser looks up its nearest parent that has a position different than static.
+
+>[!NOTICE]
+>Absolutely positioned elements just scroll along with the page.
+
+### Fixed and Sticky positioning
+
+These are very similar in the sense that an element positioned either fixed or sticky will stay in the same place as you scroll but there is a subtle difference.
+
+#### Let's start with Fixed
+
+Fixed element will do three things. 
+1. It will float just like an absolutely positioned elements.
+2. It's gonna stay in the same place regardless of the scroll position.
+3. It' gonna be positioned relative to the viewport, not its parent element.
+
+#### How is that different than sticky positioning?
+
+It's a bit newer, but also pretty powerful.
+The sticky element we'll just scroll in a way just like any other element until it reaches a certain point.
+
+That' the difference between sticky and fixed, a fixed element will stay fixed at all times it will not move. A sticky element is static by default until we reach a certain threshold.
+
+>[!NOTE]
+>A sticky element is static by default until we reach a certain threshold.
+
+```
+key takeaways
+
+1. The `position` CSS property defines how an element is positioned.
+2. The `final location` of a positoned element is determined by the `top`, `right`, `bottom`, and `left` properties.
+3. By `default`, an element has the position value of `static` where the element is positioned according to the `normal flow`. The `top`, `right`, `bottom` and `left` properties have no effect.
+4. An element with `position: relative` is positioned according to the `normal flow` of the document, but then can be `offset` relative to itself by using the `top`, `right`, `bottom` and `left` properties. The offset does not affect the position of any other elements.
+5. An element with `position: absolute` is `removed` from the `normal document flow` and is positioned `relative` to its closest positioned ancester.
+6. An element with `position: fixed` is also `removed` from the `normal document flow` and is positioned `relative` to the `viewport`. A fixed element stays in the same positon as the user scrolls.
+7. An element with `position: sticky` is positioned based on the user's `scroll position` and will toggle between `relative` and `fixed`. The element is positioned relative until a given offset is met in the viewport. From that point its position set to fixed.
+8. A `sticky` element stays `within` its parent so once the user scrolls past the parent, the sticky element is reverted back to a relative position.
+```
+
+## Styling Backgrounds in CSS
+
+HTML elements can have two types of backgrounds, color and image.
+
+In this one, we'll be focusing on image backgrounds. And this can be of two types.
+We can use an actual image or we can use a CSS gradient.

@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
+                "file": "HTML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS.md",
+                "file": "HTML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS.md"
+                "file": "HTML.md"
               }
             }
           }
@@ -173,12 +173,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "447a226c45680f08",
+  "active": "0b92d1dc529428cc",
   "lastOpenFiles": [
     "Intro to HTML & CSS.md",
+    "HTML.md",
     "CSS.md",
     "innerouter.png",
-    "HTML.md",
     "images/dhcp.png",
     "boxModel.png",
     "sass&less.png",
