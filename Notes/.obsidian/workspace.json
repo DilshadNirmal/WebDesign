@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to HTML & CSS.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b92d1dc529428cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HTML.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "447a226c45680f08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS.md",
+                "file": "Projects.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML.md",
+                "file": "Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML.md",
+                "file": "Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML.md"
+                "file": "Projects.md"
               }
             }
           }
@@ -173,11 +148,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0b92d1dc529428cc",
+  "active": "bd02b5c6d2e37280",
   "lastOpenFiles": [
+    "CSS.md",
+    "Projects.md",
     "Intro to HTML & CSS.md",
     "HTML.md",
-    "CSS.md",
+    "images/mediaQueries.md",
+    "images/mediaQuery.png",
+    "images/Screenshot 2023-08-31 190656.png",
     "innerouter.png",
     "images/dhcp.png",
     "boxModel.png",
@@ -186,8 +165,6 @@
     "images/SemanticElements.png",
     "images/self_C.png",
     "images/nav.png",
-    "images/inlineElement.png",
-    "images/IL_v_B.png",
     "images",
     "Untitled"
   ]

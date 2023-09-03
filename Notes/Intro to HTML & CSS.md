@@ -44,7 +44,7 @@
 ---
 ## prerequisites
 
-### HTML and CSS
+### [[HTML]] and [[CSS]]
 
 These are Languages used in front-end web development. Front-end meaning the presentation layer visitors see.
 ### Brower

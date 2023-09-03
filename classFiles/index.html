@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- contain meta information -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Files</title>
@@ -12,14 +11,15 @@
 
 <style>
 
-    * {
+* {
         margin: 0;
         box-sizing: border-box;
+        padding: 0;
     }
 
     body {
 
-        background-color: #001001;
+        background-color: rgba(1, 1, 1, 0.90);
         /*
         background: url(/images/example/vastSpace.jpg);
         background-size: cover; Use 'cover' to scale the image to cover the entrie element
@@ -28,6 +28,7 @@
     }
 
     section {
+        padding: 2rem 0;
         display: grid;
     }
 
@@ -37,20 +38,21 @@
         justify-content:center;
     }
 
-    h1 {
+    h2 {
         
-        margin: 20px;
+        margin: 1rem;
         color: white;
         font-family: 'Oswald', sans-serif;
         font-size: 80px;
+        padding: 1.5rem;
     }
 
-    .grid-container {
+    .container {
         display: grid;
-        /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); Adjust column width as needed */
-        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-        gap: 20px;
-        padding: 20px;
+        /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/ /* Adjust column width as needed */
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+        padding: 1.5rem 1rem;
         /* background-color: #f2f2f2; */
         place-items: center;
     }
@@ -76,32 +78,45 @@
 
     a:hover {
         background-color: rgba(41, 39, 37, 0.692);
-        color: rgb(240, 248, 255);
+        color: rgb(248, 248, 255);
         cursor: pointer;
         font-size: 18px;
     }
 
+    div.project {
+        grid-template-columns: 1fr;
+        /* padding: 1.5rem 0; */
+        /* gap: 1rem; */
+    }
+
+    div.project a {
+        font-size: 20px;
+    }
+
+    div.project a:hover {
+        font-size: 22px;
+    }
+
     @media (max-width :800px) {
-        .grid-container {
-            grid-template-columns: 1fr 1fr;
+        .container {
+            grid-template-columns: repeat(2, 1fr);
         }
 
         a {
             width: 18rem;
         }
     }
-
 </style>
 <body>
 
-    <section>
+    <section class="class">
         
         <header>
-            <h1>Class Files 😁</h1>
+            <h2>Class Files 🤯</h2>
         </header>
 
-        <div class="grid-container">
-            
+        <div class="container">
+
             <div>
                 <a href="../classFiles/1_blockVsInline/blockVsInline.html">Block Vs Inline</a>
             </div>
@@ -151,17 +166,50 @@
             </div>
 
             <div>
-                <a href="../classFiles/11_innerDisplayType/innerDisplayType.html">Inner Display Type</a>
+                <a href="../classFiles/11_innerDisplayType/innerdisplayType.html">Inner Display Type</a>
             </div>
-
+            
             <div>
                 <a href="../classFiles/12_stylingList/stylingList.html">Styling List</a>
             </div>
-
+            
             <div>
                 <a href="../classFiles/12_stylingList/commonUseCase.html">Common Use Case</a>
             </div>
+            
+            <div>
+                <a href="../classFiles/13_positioningElements/positioningElements.html">Positioning Elemets</a>
+            </div>
+            
+            <div>
+                <a href="../classFiles/14_stylingBackgrounds/stylingBackgrounds.html">Styling Backgrounds</a>
+            </div>
+            
+            <div>
+                <a href="../classFiles/14_stylingBackgrounds/stylingBackgrounds2.html">Styling Backgrounds 2</a>
+            </div>
+            
+            <div>
+                <a href="../classFiles/15_buildingLayouts/simpleDemo.html">Layouts: Simple Demo</a>
+            </div>
+            
+            <div>
+                <a href="../classFiles/15_buildingLayouts/realesticDemo.html">Layouts: Realestic Demo</a>
+            </div>
+            
+        </div>
 
+    </section>
+
+    <section class="project">
+        <header>
+            <h2>Project area 📽️</h2>
+        </header>
+
+        <div class="project container">
+            <div>
+                <a href="../classFiles/16_landingPage/landingPage.html">Landing Page</a>
+            </div>
         </div>
     </section>
     

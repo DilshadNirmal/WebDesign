@@ -483,3 +483,83 @@ HTML elements can have two types of backgrounds, color and image.
 
 In this one, we'll be focusing on image backgrounds. And this can be of two types.
 We can use an actual image or we can use a CSS gradient.
+
+> demo : 14_stylingBackgrounds
+
+```
+key takeaways
+
+1. HTML elements can have two types of backgrounds: `color` and `image`.
+2. The `background-image` CSS property sets one or more background images on an element.
+3. Use the `background-size` property to set the size of the element's background image.
+4. You can change the `position` of a background image by using the `background-position` property.
+5. A background image will `repeat` itself `by default` but you can change this behaviour with the `background-repeat` property.
+6. A great way of creating an interesting background is to use a `pattern` as a background image and have it `repeat` in both directions.
+7. Color `gradients` can be created with the `linear-gradient` CSS function and applied as a value for the `background-image`.
+8. The `background` CSS property is a `shorthand` that sets all backgrounds style properties at once, such as `color`, `image`, `size`, `repeat` or `poistion`.
+```
+
+## Building Layouts with Flexbox and CSS Grid
+
+_Flexbox_ and _CSS Grid_ layouts are two of the most powerful tools you can use in CSS to create layouts.
+
+>demo : 15_buildingLayouts
+
+>[!Typical Behavior for Flexbox]
+>By default items are set to stretch, which means they're gonna fill the only available space vertically.
+
+### Flexbox
+
+Using Flexbox, you can create super awesome alignment, and you will do that the following way.
+You have two properties that can be used `justify-content` and `align-items`.
+
+_justify-content_ - works on the horizontal axis.
+_align-items_ - works on the vertical axis.
+
+### CSS Grid
+
+_CSS grid_ works with columns and rows, it's a two dimensional layout system.
+
+>[!General Rule]
+>Whenever you want your layout to shape the content, I use _CSS Grid_.
+>With _Flexbox_, I'm letting the content shape the layout.
+
+```
+1. `Flexbox` is a `one-dimensional` layout method that allows us to place elements in rows ot columns.
+2. In `flexbox`, items are displayed along what we call the `main axis` which, by default, is `horizontal`.
+3. The `cross axis` is `perpendicular` to the main axis.
+4. To control the alignment along the `main axis`, we can use the `justify-content` property.
+5. To control the alignment along the `cross axis`, we can use the `align-items` property.
+6. `CSS Grid Layout` (in short Grid or CSS Grid) is a `two-dimensional` grid-based layout system that allows us to place elements in rows and columns.
+7. To define `columns` or `rows` in Grid, you can use the `grid-template-columns` and `grid-template-rows` properties.
+```
+
+## Working with Media Queries for Creating Responsive Websites
+
+A responsive website will change its layout based on the medium it's being displayed on.
+So a responsive website will look a certain way on a big screen and a different way on a small screen.
+
+Now, achieving different layouts for different devices, is possible with CSS, cause of media queries.
+
+![MEDIA QUERIES](images/mediaQueries)
+
+> demo: _realesticdemo_
+
+
+>[!NOTE]
+>We can use ordering in both Flexbox and CSS Grid.
+>We can change the order in which items are rendered in the page without actually changing the order in the HTML.
+
+```
+key takeaways
+
+1. A `media query` is a technique we can use to modify how certain elements are rendered based on the `device type` (for example print or screen) or based on specific characteristics (like `screen resolution` or `browser width`).
+2. `Media queries` represent a key of `responsive web design`, as they allow us to create different layouts depending on the size of the `viewport`.
+3. A `media query` consists of three things. A `media type` which tells the browser what kind of media the code is for (example print or screen), a `media feature rule` which is a test that must be passed in order for CSS to be applied and finally the actual `CSS rules` that are to be applied.
+```
+
+
+go to [[Projects]]
+
+
+

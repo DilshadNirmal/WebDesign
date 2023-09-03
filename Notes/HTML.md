@@ -523,3 +523,7 @@ key takeaways
 7. Finally, `<section>` and `<article>` are great for `sectioning` content and you'll often find them being used interchangeably. `<section>` should be used for grouping related content, while `<article>` is best used for content that can be distributed independently.
 ```
 
+> go to [[CSS]]
+
+
+
