@@ -201,7 +201,7 @@ key takeaways
 
 As you're learning more and more about CSS properties, you'll see that most of these have numeric values. So what they have is a _number as a value_ and it have _units_.
 
-We have the units that pertain to the environment that we're working with, so we have **pixels, ems, rems, percentages** and so on.
+We have the units that pertain to the environment that we're working with, so we have **pixels, em's, rem's, percentage's** and so on.
 
 > demo : div_element
 
@@ -378,7 +378,9 @@ There are few other ways of adding a border or what we perceive as a border arou
 
 Before we start coding, we need to learn about the two display types, inner and outer.
 
-![[innerouter.png]]
+![innerouter](images/innerouter.png)
+
+
 
 ### Outer Display type
 
@@ -541,7 +543,7 @@ So a responsive website will look a certain way on a big screen and a different 
 
 Now, achieving different layouts for different devices, is possible with CSS, cause of media queries.
 
-![MEDIA QUERIES](images/mediaQueries)
+![mediaQuery](images/mediaQuery.png)
 
 > demo: _realesticdemo_
 

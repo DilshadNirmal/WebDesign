@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4347d3ca64a9f10",
+        "id": "09cfeb3ab3c23346",
         "type": "tabs",
         "children": [
           {
-            "id": "bd02b5c6d2e37280",
+            "id": "4a4d6b049bdefb31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects.md",
-                "mode": "source",
+                "file": "CSS.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects.md",
+                "file": "CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects.md",
+                "file": "CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects.md"
+                "file": "CSS.md"
               }
             }
           }
@@ -148,14 +148,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd02b5c6d2e37280",
+  "active": "4a4d6b049bdefb31",
   "lastOpenFiles": [
     "CSS.md",
-    "Projects.md",
-    "Intro to HTML & CSS.md",
+    "JAVASCRIPT.md",
     "HTML.md",
-    "images/mediaQueries.md",
+    "Intro to HTML & CSS.md",
     "images/mediaQuery.png",
+    "images/innerouter.png",
+    "Projects.md",
+    "images/mediaQuery.md",
+    "images/mediaQueries.png.md",
+    "images/mediaQueries.md",
+    "().md",
     "images/Screenshot 2023-08-31 190656.png",
     "innerouter.png",
     "images/dhcp.png",
@@ -164,7 +169,6 @@
     "images/url.png",
     "images/SemanticElements.png",
     "images/self_C.png",
-    "images/nav.png",
     "images",
     "Untitled"
   ]
