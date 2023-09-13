@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS.md",
+                "file": "Projects.md",
                 "mode": "preview",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "62f1d6cc83514ca9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.11"
               }
             }
           }
@@ -86,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS.md",
+                "file": "Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSS.md",
+                "file": "Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +136,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS.md"
+                "file": "Projects.md"
+              }
+            }
+          },
+          {
+            "id": "2ae884f374453d5d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -150,8 +170,8 @@
   },
   "active": "4a4d6b049bdefb31",
   "lastOpenFiles": [
-    "JAVASCRIPT.md",
     "CSS.md",
+    "JAVASCRIPT.md",
     "HTML.md",
     "images/brendanEich.jpg.crdownload",
     "images/brendanEich.jpg",

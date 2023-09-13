@@ -58,7 +58,9 @@ body {
 
 .static .highlight {
     background-color: var(--color-1);
-
+    position: static;
+    top: 0px;
+    left: 200px;
 }
 
 .relative {
@@ -67,7 +69,9 @@ body {
 
 .relative .highlight {
     background-color: var(--color-2);
-
+    position: relative;
+    top: 0px;
+    right: 244px;
 }
 
 .absolute {
@@ -76,7 +80,9 @@ body {
 
 .absolute .highlight {
     background-color: var(--color-3);
-
+    position: absolute;
+    bottom: 5px;
+    /* top: 0px; */
 }
 
 .fixed {
@@ -85,15 +91,19 @@ body {
 
 .fixed .highlight {
     background-color: var(--color-4);
-    
+    /* position: fixed; */
+    top: 4rem;
 }
 
 .sticky {
-    height: 500px;
+    height: 800px;
     border-left: 4px solid var(--color-5);
 }
 
-
+.sticky ul {
+    position: sticky;
+    top: 1rem;
+}
 
 .sticky ul li {
     background-color: var(--color-5);
