@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e1e6fb;
+    height: 90vh;
+}
+
+header {
+    height: 18rem;
+    display: grid;
+    grid-template-columns: 70% auto;
+    place-items: start;
+
+    padding: 3rem 0;
+    margin: 2rem 1rem;
+}
+
+header h1 {
+    padding: 1rem;
+    margin: 2rem 1rem;
+
+    font-family: 'Noto Serif Vithkuqi', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+header .empty {
+    width: 20rem;
+    height: 20rem;
+
+    display: grid;
+    place-items: end;
+}
+
+header .empty .stack {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+
+    position: absolute;
+}
+
+header .empty #stack1 {
+    background-color: rgba(135, 153, 255, 0.608);
+    top: 30%;
+    left: 70%;
+}
+
+header .empty #stack2 {
+    background-color: rgba(135, 153, 255, 0.608);
+    top: 15%;
+    left: 80%;
+}
+
+header .empty .placeholder {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+    background-color: rgba(135, 153, 255, 1);
+}
+
+.container {
+    height: 18rem;
+    display: grid;
+    place-items: center;
+}
+
+div button {
+    background-color: rgba(135, 153, 255, 0.608);
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+
+    font-size: 18px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: 700;
+
+    background: linear-gradient(90deg, #333 50%, transparent 0) repeat-x, linear-gradient(90deg, #333 50%, transparent 0) repeat-x, linear-gradient(0deg, #333 50%, transparent 0) repeat-y, linear-gradient(0deg, #333 50%, transparent 0) repeat-y;
+    background-size: .5rem .1rem, .5rem .1rem, .1rem .5rem, .1rem .5rem;
+    background-position: 0 0, 0 100%, 0 0, 100% 0;
+    animation: linearGradientMove .3s infinite linear;
+}
+
+div button:hover {
+    background-color: rgba(135, 153, 255, 1);
+    animation: linearGradientMove 0s infinite linear;
+}
+
+@keyframes linearGradientMove {
+    100% {
+        background-position: 4px 0, -4px 100%, 0 -4px, 100% 4px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        display: block;
+
+        height: 22rem;
+        padding: 1rem 0;
+        margin: 2rem 1rem;
+    }
+
+    header h1 {
+        padding: 1rem;
+        margin: 1rem .5rem;
+    }
+
+    div.container {
+        padding: .5rem 0 0 0;
+        height: 10rem;
+    }
+
+    header .empty {
+        display: none;
+    }
+}

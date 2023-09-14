@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Element and CSS units</title>
+
+    <link rel="stylesheet" href="/css/presentation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Handjet&family=Noto+Serif+Vithkuqi&family=Poppins:ital@1&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* styling for demo purpose */
+        /* section>div {
+            background-color: rgb(179, 215, 215);
+            display: flex;
+            margin-bottom: 1rem;
+        }
+
+        div div {
+            background-color: rgb(142, 181, 181);
+        } */
+
+        /*styling for the divs*/
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 20px;
+        }
+
+        .card {
+            color: white;
+            width: 350px;
+            font-size: 28px;
+            padding: 1.5rem 2rem;
+            /* border-radius: 8px; */
+        }
+
+        #total {
+            background-color: #132a3b;
+        }
+
+        #sale {
+            background-color: #1f5475;
+        }
+
+        #rental {
+            background-color: #f66a11;
+        }
+
+        .card h1 {
+            /* font-size: 32px; */
+            font-size: 1.14em;
+        }
+
+        .card p {
+            /* font-size: 18px; */
+            /* font-size: 0.64em; */
+            font-size: 1rem;
+        }
+
+        /* h2, p {
+            color: #fff;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <!-- pratice area -->
+    <section class="learn">
+
+        <div class="card" id="total">
+            <img src="../images/example/house-chimney.svg" alt="house-chimney">
+            <div>
+                <h2>510</h2>
+                <p>Properties in total</p>
+            </div>
+        </div>
+
+        <div class="card" id="sale">
+            <img src="../images/example/cart-plus.svg" alt="cart-plus">
+            <div>
+                <h2>253</h2>
+                <p>Properties for sale</p>
+            </div>
+        </div>
+
+        <div class="card" id="rental">
+            <img src="../images/example/user-check.svg" alt="user-check">
+            <div>
+                <h2>257</h2>
+                <p>Properties for rental</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- preview area -->
+    <section class="preview" data-content="<div> element & CSS units">
+        <img src="../images/reference/real-estate-statistics.png" alt="real-estate-statistics" width="400px">
+    </section>
+
+</body>
+
+</html>

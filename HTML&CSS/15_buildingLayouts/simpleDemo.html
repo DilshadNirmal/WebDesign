@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Simple Demo</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="../css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
+
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: 'Poppins', sans-serif;
+			}
+
+			.container {
+				border: 1px dashed #EA4C89;
+			}
+
+            /* for flexbox */
+            .flex {
+                display: flex;
+
+                /* justify-content: flex-start; */
+                justify-content: center;
+                /* justify-content: flex-end; */
+                /* justify-content: space-around; */
+                /* justify-content: space-between; */
+                /* justify-content: space-evenly; */
+
+                align-items: flex-start;
+                align-items: center;
+                align-items: flex-end;
+
+                /* flex-direction: column;
+                justify-content: space-between;
+                align-items: center; */
+
+                gap: 2rem;
+            }
+
+            /* for grid */
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                grid-template-rows: 500px 600px;
+                gap: 1rem;
+            }
+
+			.card {
+				color: rgba(0, 0, 0, 0.6);
+				padding: 2rem;
+				font-weight: 700;
+			}
+
+			.style-1 {
+				background-color: #FB896B;
+			}
+
+			.style-2 {
+				background-color: #9f9bd3;
+				height: 10rem;
+			}
+
+			.style-3 {
+				background-color: #84E8F4;
+				height: 20rem;
+			}
+
+			.style-4 {
+				background-color: #23dc8f;
+				/* height: 5rem; */
+			}
+		</style>
+	</head>
+	<body class="no-reference">
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<div class="container flex">
+				<div class="card style-1">1</div>
+				<div class="card style-2">2</div>
+				<div class="card style-3">3</div>
+			</div>
+
+			<br>
+
+			<div class="container grid">
+				<div class="card style-1">1</div>
+				<div class="card style-2">2</div>
+				<div class="card style-3">3</div>
+				<div class="card style-4">4</div>
+			</div>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="Building Layouts with Flexbox and CSS Grid">
+			<img width="672px" src="../images/reference/no-reference.png" alt="Reference image" />
+		</section>
+	</body>
+</html>

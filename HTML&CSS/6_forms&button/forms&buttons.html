@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Forms and Buttons</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="../css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: 'poppins', sans-serif;
+			}
+
+			form div {
+				margin-bottom: 1rem;
+			}
+
+			/* .remember {
+				margin-bottom: 2.5rem;
+			} */
+
+			form .btn {
+				background-color: #7C48BF;
+				color: white;
+				padding: 1rem 2rem;
+				border-radius: 8px;
+				font-weight: bold;
+				text-align: center;
+				text-decoration: none;
+				/* width: 100%; */
+
+				/* display properties */
+				display: inline-block;
+				width: 110px;
+			}
+
+			form label {
+				display: block;
+			}
+
+			/* display none */
+			/* #login-remember {
+				display: none;
+			} */
+
+		</style>
+	</head>
+
+	<body>
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<h1>Sign in with your credentials</h1>
+
+            <form action="" method="post"> <!--get-->
+                <div>
+                    <label for="login-email">Email address</label>
+                    <input type="email" name="login-email" id="login-email" autofocus>
+                </div>
+                <div>
+                    <label for="login-password">Password</label>
+                    <input type="password" name="login-password" id="login-password">
+                </div>
+
+                <div class="remember">
+					<label for="login-remember">
+						<input type="checkbox" name="login-remember" id="login-remember">Remember Me
+					</label>
+				</div>
+
+				<br>
+
+				<a href="" class="btn">Sign In</a>
+				<a href="" class="btn">Sign Out</a>
+                    
+            </form>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="Using Forms and Buttons">
+			<img width="498px" src="../images/reference/login-form.png" alt="Reference image" />
+		</section>
+	</body>
+</html>

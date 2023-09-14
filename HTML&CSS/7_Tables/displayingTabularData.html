@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Displaying Tabular Data with Tables</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="../css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+	</head>
+
+	<body class="flip">
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<h1>Payouts</h1>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Payee</th>
+						<th>Amount</th>
+						<th>Date</th>
+						<th>Status</th>
+                    </tr>
+                </thead>
+
+				<tbody>
+					<tr>
+						<td>
+							<b>John Wick</b> <br>
+							Shoota Inc
+						</td>
+						<td>$42,272.23</td>
+						<td>Jan 13, 2023</td>
+						<td><span>Processing</span></td>
+					</tr>
+					
+					<tr>
+						<td>
+							<b>Willem Dafoe</b> <br>
+							Spider Inc
+						</td>
+						<td>$27,221.00</td>
+						<td>Dec 07, 2021</td>
+						<td><span>Success</span></td>
+					</tr>
+					<tr>
+						<td>
+							<b>Chuck Norris</b> <br>
+							Roundhouse Inc
+						</td>
+						<td>$6,982.00</td>
+						<td>Oct 20, 2021</td>
+						<td><span>Success</span></td>
+					</tr>
+					<tr>
+						<td>
+							<b>Nick Cage</b> <br>
+							Convicts Inc
+						</td>
+						<td>$13,821.72</td>
+						<td>Oct 14, 2021</td>
+						<td><span>Reverted</span></td>
+					</tr>
+				</tbody>
+
+				<tfoot>
+					<tr>
+						<td>Total Paid</td>
+						<td colspan="3">$90,296.95</td>
+					</tr>
+				</tfoot>
+            </table>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="Displaying Tabular Data with Tables">
+			<img width="903" src="../images/reference/table.png" alt="Reference image" />
+		</section>
+	</body>
+</html>

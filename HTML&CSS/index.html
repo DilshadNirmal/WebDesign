@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Files</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Handjet&family=Noto+Serif+Vithkuqi&family=Oswald:wght@500&family=Poppins:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<style>
+
+* {
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    body {
+
+        background-color: rgba(1, 1, 1, 0.90);
+        /*
+        background: url(/images/example/vastSpace.jpg);
+        background-size: cover; Use 'cover' to scale the image to cover the entrie element
+        background-repeat: no-repeat;
+        background-attachment: fixed;Keeps the background fixed while scrolling*/
+    }
+
+    section {
+        display: grid;
+    }
+
+    header {
+        display: flex;
+        place-items: center;
+        justify-content:center;
+    }
+
+    h1 {
+        
+        margin: 20px;
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-size: 80px;
+    }
+
+    h2 {
+        margin: 4rem 3rem;
+        color: rgba(255, 255, 255, 0.95);
+        font-size: 60px;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .container {
+        display: grid;
+        /*grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/ /* Adjust column width as needed */
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+        padding: 1.5rem 1rem;
+        /* background-color: #f2f2f2; */
+        place-items: center;
+    }
+
+    a {
+
+        box-sizing: border-box;
+
+        background-color: #292725e1;
+        padding: 2rem 1rem;
+        border-radius: .3rem;
+        width: 20rem;
+        height: 5rem;
+
+        display: flex;
+        justify-content: center;
+        place-items: center;
+
+        text-decoration: none;
+        color: rgba(240, 248, 255, 0.968);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    a:hover {
+        background-color: rgba(41, 39, 37, 0.692);
+        color: rgb(248, 248, 255);
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    div.project {
+        grid-template-columns: 1fr;
+        /* padding: 1.5rem 0; */
+        /* gap: 1rem; */
+    }
+
+    div.project a {
+        font-size: 1.25rem;
+        background-color: rgba(255, 255, 255, 0.10);
+    }
+    div.project a:hover {
+        font-size: 1.5rem;
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    @media (max-width :800px) {
+        .container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        a {
+            width: 18rem;
+        }
+    }
+</style>
+<body>
+
+    <section>
+        
+        <header>
+            <h1>Class Files 🤯</h1>
+        </header>
+
+        <div class="container">
+
+            <div>
+                <a href="../HTML&CSS/1_blockVsInline/blockVsInline.html">Block Vs Inline</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/2_divElement/div.html">Div Element</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/3_textRelated/txtRelatedE.html">Text Related Element</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/4_separateContent/separateContent.html">Separate Content</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/5_lists/lists.html">Lists</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/5_lists/lists2.html">Lists 2</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/6_forms&button/forms&buttons.html">Forms & Buttons</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/6_forms&button/forms&buttons2.html">Forms & Buttons 2</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/7_Tables/displayingTabularData.html">Displaying Tabular Data</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/8_cssSelectors/cssSelectors.html">CSS Selectors</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/9_settingDimensions/settingDimensions.html">Setting Dimensions</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/10_alternativeBoxModel/alternativeBoxModel.html">Alternative Box Model</a>
+            </div>
+
+            <div>
+                <a href="../HTML&CSS/11_innerDisplayType/innerdisplayType.html">Inner Display Type</a>
+            </div>
+            
+            <div>
+                <a href="../HTML&CSS/12_stylingList/stylingList.html">Styling List</a>
+            </div>
+            
+            <div>
+                <a href="../HTML&CSS/12_stylingList/commonUseCase.html">Common Use Case</a>
+            </div>
+            
+            <div>
+                <a href="../HTML&CSS/13_positoningElements/positoningElements.html">Positioning Elemets</a>
+            </div>
+            
+            <div>
+                <a href="../HTML&CSS/14_stylingBackgrounds/stylingBackgrounds.html">Styling Backgrounds</a>
+            </div>
+            
+            <div>
+                <a href="../HTML&CSS/14_stylingBackgrounds/stylingBackgrounds2.html">Styling Backgrounds 2</a>
+            </div>
+            
+            <div>
+                <a href="../HTML&CSS/15_buildingLayouts/simpleDemo.html">Layouts: Simple Demo</a>
+            </div>
+            
+            <div>
+                <a href="../HTML&CSS/15_buildingLayouts/realesticDemo.html">Layouts: Realestic Demo</a>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section>
+        <header>
+            <h2>Project area 📽️</h2>
+        </header>
+
+        <div class="project container">
+            <div>
+                <a href="../HTML&CSS/16_landingPage/landingPage.html">Landing Page</a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

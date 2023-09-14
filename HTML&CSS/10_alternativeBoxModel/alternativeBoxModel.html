@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Alternative Box Model</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="../css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+		<style>
+			.todo {
+				/* Don't worry about the first 3 properties. */
+				/* They're just used for demo purposes. */
+				display: flex;
+				gap: 24px;
+				align-items: center;
+                
+				background-color: #F5FBFA;
+				border-left: 8px solid #00B29C;
+				padding-top: 16px;
+				padding-bottom: 16px;
+				padding-left: 32px;
+				padding-right: 32px;
+				width: 400px;
+
+                /*Standard box model*/
+                box-sizing: content-box;
+			}
+
+            /*alternative box model*/
+            .todo.alternative {
+                box-sizing: border-box;
+            }
+
+		</style>
+	</head>
+	<body>
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<h1>Today</h1>
+
+			<div class="todo">
+				<input type="checkbox">
+
+				<div>
+					<h2>Robert Fox Portfolio Website</h2>
+					<p>Design the landing page</p>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="todo alternative">
+				<input type="checkbox">
+
+				<div>
+					<h2>Robert Fox Portfolio Website</h2>
+					<p>Design the landing page</p>
+				</div>
+			</div>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="The CSS Box Model">
+			<img width="504px" src="../images/reference/todo.png" alt="Reference image" />
+		</section>
+	</body>
+</html>

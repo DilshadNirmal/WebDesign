@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Separating Content with breaks & Styling Text with CSS</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="/css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			.card {
+				color: rgb(20, 41, 58);
+				/* font-family: 'poppins', sans-serif;
+				font-size: 18px;
+				line-height: 1.55; */
+				font: 18px/1.55 'poppins', sans-serif; /*Shorthand property*/
+				/* text-align: start; */
+			}
+
+			.card p {
+				color: rgba(20, 41, 58, 0.8);
+			}
+
+			.card a {
+				color: #FF5D00;
+				text-decoration: none;
+			}
+
+			.card h1 {
+				font-size: 1.75em;
+				font-weight: 900;
+				/* font-style: italic; */
+			}
+
+			p span {
+				font-size: .75em;
+				font-weight: 700;
+				line-height: 1.8;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
+
+			.card a:hover {
+				color: rgb(20, 42, 58);
+			}
+
+			.card a:active {
+				color: rgba(20, 42, 58, .5);
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<div class="card">
+				<!-- envelope image goes here -->
+				<img src="../images/example/envelopes-bulk.svg" alt="envelopes-bulk">
+				<h1>Let's get in touch</h1>
+				<p>
+					9 Augusta Street<br>
+					Fair Lawn, NJ 07410
+				</p>
+				<hr>
+				<p>
+					<span>email</span><br>
+					<a href="mailto:chuck@roundhouse.com">chuck@roundhouse.com</a>
+				</p>
+				<p>
+					<span>phone</span><br>
+					<a href="tel:+1-202-555-012">+1-202-555-0125</a>
+				</p>
+			</div>
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="Using Breaks to Separate Content & Styling Text with CSS">
+			<img width="444px" src="../images/reference/address.png" alt="address" />
+		</section>
+	</body>
+</html>
