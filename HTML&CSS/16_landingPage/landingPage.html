@@ -10,13 +10,105 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700;900&display=swap" rel="stylesheet" />
 
-		<link rel="stylesheet" href="./landingPage.css">
 	</head>
 	<body>
 
         <!-- pratice area start -->
 		
-		<h1>welcome</h1>
+		<header id="main-header">
+			<div class="container">
+				<a href=""><img src="/HTML&CSS/images/landing-page/logo.svg" alt="companyLogo"></a>
+				<h1>Modern Chairs Crafted With Love</h1>
+				<h2>We love creating high quality and comfortable chairs</h2>
+				<a href="#our-chairs" class="btn">Discover our chair selection</a>
+			</div>
+		</header>
+
+		<section id="our-chairs">
+			<div class="container">
+				<header>
+					<p class="section-intro">The Selection</p>
+					<h3>Our Chairs</h3>
+					<p>We mostly sell one-off items. That menas that we make one-of-a-kind furniture pieces so whoever buys it will have a unique item.</p>
+				</header>
+
+				<div class="gallery">
+					<div>
+						<img src="/HTML&CSS/images/landing-page/furniture-1.jpg" alt="furniture-1">
+						<p class="number">01</p>
+						<h4>Tufted White Leather Sofa Chair</h4>
+						<p>This will fit perfectly in any beauty salon or modern home thanks to its timeless design.</p>
+						<p>$289</p>
+					</div>
+					<div>
+						<img src="/HTML&CSS/images/landing-page/furniture-2.jpg" alt="furniture-2">
+						<p class="number">02</p>
+						<h4>Black and Brown Wooden Chair</h4>
+						<p>Both Minimalistic and Comfortable, this is a great choice for home or office..</p>
+						<p>$99</p>
+					</div>
+					<div>
+						<img src="/HTML&CSS/images/landing-page/furniture-3.jpg" alt="furniture-3">
+						<p class="number">03</p>
+						<h4>Rustic wooden bar stool</h4>
+						<p>Made from solid beech wood, this piece will fit nicely in your rustic kitchen.</p>
+						<p>$139</p>
+					</div>
+				</div>
+
+				<p>Interested in our products? <a href="#contact">Send us a message</a> or <a href="#store">visit our store</a></p>
+			</div>
+		</section>
+
+		<section id="contact" class="dark">
+			<div class="container small">
+				<header>
+					<p class="section-intro">Contact</p>
+					<h3>Let's get in touch</h3>
+				</header>
+
+				<form action="" method="post">
+					<div>
+						<label for="contact-name">Name</label>
+						<input type="text" name="contact-name" id="contact-name">
+					</div>
+					<div>
+						<label for="contact-email">email address</label>
+						<input type="email" name="contact-email" id="contact-email">
+					</div>
+					<div>
+						<label for="contact-message">Comments</label>
+						<textarea name="contact-message" id="contact-message" cols="30" rows="10"></textarea>
+					</div>
+					<div>
+						<button class="btn">Send Message</button>
+						<p class="muted"><em>All fields are required. We'll get back to you as soon as possible.</em></p>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section id="store">
+			<div class="container">
+				<p class="section-intro">Visit our store</p>
+				<h3 class="large">(307) 555-0133</h3>
+				<p class="large">2972 Westheimer Rd. Santana Ana, Illinois 85486</p>
+
+				<div class="social-icons">
+					<ul>
+						<li><img src="/HTML&CSS/images/landing-page/icon-facebook.svg" alt="icon-facebook"></li>
+						<li><img src="/HTML&CSS/images/landing-page/icon-instagram.svg" alt="icon-instagram"></li>
+						<li><img src="/HTML&CSS/images/landing-page/icon-twitter.svg" alt="icon-twitter"></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="continer">
+				<p>&copy; Copyright 2023 The Chair Company. All rights reserved. Built with <a href="">HTML</a> and <a href="">CSS</a>.</p>
+			</div>
+		</footer>
 
         <!-- pratice area end -->
 	</body>
