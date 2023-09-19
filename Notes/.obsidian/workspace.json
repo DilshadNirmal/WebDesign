@@ -28,16 +28,6 @@
                 "currentVersion": "1.4.12"
               }
             }
-          },
-          {
-            "id": "62f1d6cc83514ca9",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.11"
-              }
-            }
           }
         ]
       }

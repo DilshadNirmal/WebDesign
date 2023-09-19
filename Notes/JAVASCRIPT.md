@@ -62,6 +62,21 @@ There are two scopes when declaring a variable -
 1. Global scope
 2. Local scope
 
+Declaring Variables:
+
+`var`: Variables declared with `var` have function scope or global scope, and can be redeclared and reassigned.
+
+> var x = 5; var y = "Hello";  
+
+
+`let`: Variables declared with `let` have block scope, can be reassigned but not redeclared.
+
+ > let age = 25; let name = "John";  
+ 
+ 
+`const`: Variables declared with `const` have block scope, cannot be reassigned or redeclared. However, for objects and arrays, their properties or elements can be modified. 
+
+>  const PI = 3.14; const person = { name: "Alice", age: 30 }; person.age = 31; `// Valid - modifying a property of a const object`
 ## Data Types
 
 There are **seven** data types in javascript, _five_ of them are `primary` and _two_ of them are `composite`.
@@ -124,6 +139,137 @@ A property is an association between a name and a value.
 
 > for example: color = red
 
-properties can also have functions as values in this case those properties are called _methods_.
+>[!NOTE]
+>properties can also have functions as values in this case those properties are called _methods_.
 
-Objects are collections of properties.
+Objects are collections of properties. Objects can also have methods and a method is simply a property that has a function has its value.
+
+## Operators
+
+> demo : 4_operators
+
+### Assignment Operator
+
+_Assignmenet_ operator assigns a value to its left operand based on the value of its right operand.
+
+#### Compound Assignment Operators
+
+you can use **arithmetic operators** with the assignment operator.
+
+### Arithmetic Operators
+
+Arithmetic operators are used for mathematical calculations.
+
+- `+` (Addition): Adds two numeric operands.
+- `-` (Subtraction): Subtracts the right operand from the left operand.
+- `*` (Multiplication): Multiplies two numeric operands.
+- `/` (Division): Divides the left operand by the right operand.
+- `%` (Modulus): Returns the remainder of division.
+
+When using arithmetic operators, you also need to know about **Operator precedence** and **Associativity**.
+
+> example:
+> let `result` = 10 + 5 * 2;
+
+```
+Operator precedence and Associativity
+
+- Operators have different precedence levels, and parentheses can be used to enforce specific evaluation order.
+- Operators with higher precedence are evaluated first.
+- Associativity defines the order in which operators of the same precedence are evaluated.
+```
+### Comparison operators
+
+_Comparison_ operator will compare its operands and return a boolean value based on the result of that comparison.
+
+These are
+1. Equal
+2. Not equal
+3. Strict equal
+4. Is greater
+5. Is lesser
+6. Is greater or equal
+7. Is lesser or equal
+
+### Logical Operators
+
+Logical operators are `and (&&)`, `or (||)` and `not (!)`.
+
+Logical operators are used in programming to perform logical operations on Boolean values.
+
+>[! Three main logical operators]
+>- `and (&&)`: This operator returns `true` if both operands are `true`, and `false` otherwise.
+>- `or (||)`: This operator returns `true` if at least one of the operands is `true`, and `false` if both are `false`.
+>-  `not (!)`: This operator negates the Boolean value of its operand. If the operand is `true`, `not` will return `false`, and if the operand is `false`, `not` will return `true`.
+
+### Unary Operator
+
+Unary operators operate on a `single` operand.
+
+#### Increment (`++`)
+- **Post-increment (`variable++`)**: Increases the value of `variable` by 1 after using its current value in an expression.
+- **Pre-increment (`++variable`)**: Increases the value of `variable` by 1 before using its updated value in an expression.
+
+
+#### Decrement (`--`)
+- **Post-decrement (`variable--`)**: Decreases the value of `variable` by 1 after using its current value in an expression.
+- **Pre-decrement (`--variable`)**: Decreases the value of `variable` by 1 before using its updated value in an expression.
+
+#### Unary Plus (`+`)
+
+- Converts an operand into a number. For example, `+"42"` converts the string `"42"` to the number `42`.
+
+#### Unary Minus (`-`)
+
+- Negates the value of an operand. For example, `-5` negates `5` to `-5`.
+
+#### Typeof Operator (`typeof`)
+
+- Returns a string indicating the data type of an operand. For example, `typeof 42` returns `"number"`.
+
+#### Void Operator (`void`)
+
+- Discards the result of an expression and returns `undefined`. For example, `void 0` returns `undefined`.
+
+### Bitwise Operators 
+
+Bitwise operators perform operations at the binary level on the individual bits of operands. 
+#### Bitwise AND (`&`) 
+- Performs a bitwise AND operation between two integers, returning a new integer with bits set to 1 where both operands have 1. 
+#### Bitwise OR (`|`) 
+- Performs a bitwise OR operation between two integers, returning a new integer with bits set to 1 where either operand has 1. ### Bitwise XOR (`^`) - Performs a bitwise XOR (exclusive OR) operation between two integers, returning a new integer with bits set to 1 where only one operand has 1. 
+#### Bitwise NOT (`~`) 
+- Performs a bitwise NOT (complement) operation on an integer, flipping the bits. 
+#### Left Shift (`<<`) 
+- Shifts the bits of an integer to the left by a specified number of positions, filling with zeros. 
+#### Right Shift (`>>`) 
+- Shifts the bits of an integer to the right by a specified number of positions, filling with sign bit (arithmetic right shift). 
+#### Zero-fill Right Shift (`>>>`) 
+- Shifts the bits of an integer to the right by a specified number of positions, filling with zeros. 
+
+These operators are essential for performing low-level bit manipulation and optimizing certain operations in JavaScript.
+
+## If-Else Statement
+
+_**if - else statements**_ are essential for any kind of programming and it allows you to execute various blocks of code if a specific condition is met.
+
+> demo : 5_if-else
+
+### Ternary Operator
+
+It's a special case operator that takes `three operands`.
+
+The syntax goes like this:
+
+> condition ? statement_1 : statement_2;
+
+## Loops
+
+Loops are a piece of code that executes repeatedly either a set number of times or until the certain condition is met.
+
+There are three main types of loops in JavaScript, they are
+
+1. For-loop
+2. While loop
+3. do-while loop
+

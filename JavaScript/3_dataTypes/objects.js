@@ -1,1 +1,0 @@
-var person = new Array('hello', 'thowffic', 'ojha')
