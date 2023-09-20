@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            /* padding: 0; */
+        }
+
+        div.container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+        }
+
+        div.container div.box {
+            width: 350px;
+            height: 150px;
+            background-color: #c8c5c8;
+        }
+    </style>
+
+</head>
+<body>
+    <ul class="mylist">
+        <li id="text-1">text 1 </li>
+        <li id="text-2">text 2 </li>
+        <li id="text-3">text 3 </li>
+    </ul>
+    <ul class="mylist">
+        <li id="text-4">text 4 </li>
+        <li id="text-5">text 5 </li>
+        <li id="text-6">text 6 </li>
+    </ul>
+
+    <img src="https://via.placeholder.com/350x150" alt="350x150" class="myimg" id="img-1">
+    <img src="https://via.placeholder.com/350x150" alt="350x150" class="myimg" id="img-2">
+    <img src="https://via.placeholder.com/350x150" alt="350x150" class="myimg" id="img-3">
+    <img src="https://via.placeholder.com/350x150" alt="350x150" class="myimg" id="img-4">
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo nobis necessitatibus, repellat, beatae a sunt nam quae voluptas quidem est fuga? Exercitationem iusto similique perferendis nulla sunt unde sit alias.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero iure sit id voluptatibus quidem aut quaerat doloribus, sequi enim maiores earum iusto modi libero voluptates facere ducimus quis tempore. Sit?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus quidem molestias sunt consectetur animi in! Nihil, eaque magni molestiae voluptatum consequatur modi sit? Eius voluptas totam dignissimos dolorum, pariatur nam.</p>
+
+    <script src="../8_selectors/selectors.js"></script>  
+</body>
+</html>

@@ -267,9 +267,57 @@ The syntax goes like this:
 
 Loops are a piece of code that executes repeatedly either a set number of times or until the certain condition is met.
 
+> demo: 6_loops
+
 There are three main types of loops in JavaScript, they are
 
 1. For-loop
 2. While loop
 3. do-while loop
 
+## Functions
+
+Functions are sub-programs (or kind'a) that can have their _own name_, can be called _any time_, they can _receive_ parameters and they can also _return values_.
+
+> demo : 7_functions
+
+when mentioning variables we talked about _variable scope_ and variable scope means the context in which that variable is available, we have -
+
+1. Global variables
+2. Local variables
+
+## Selectors
+
+>[!Now at the main topic \ THE DOM]
+>As a _Web Designer_ or a _Web Developer_ probably one of the main things you're using javascript for is to _manipulate the DOM_ or the document object model essentially your web page and the easiest way to do that is with the help of selectors.
+
+
+Selectors are incredibly useful because they provide access to the Document Object Model (DOM), enabling you to perform manipulations effectively. These selectors are seamlessly integrated with the `document` and `window` objects. If you recall from our discussion on objects, an 'object' is essentially a collection of properties and methods. 
+By utilizing these properties and methods, you can interact with different elements within your DOM and perform a wide range of actions.
+
+## JavaScript Events
+
+- JavaScript events are primarily associated with actions on the **HTML side**.
+- In JavaScript, your role is to **listen to these events** and respond appropriately.
+
+#### Types of Events
+
+Events can fall into two main categories:
+
+1. **Browser-Triggered Events:**
+   - These are events initiated by the browser itself. For example:
+     - When the page has fully loaded.
+     - When an image has completed downloading from the server.
+   
+2. **User-Triggered Events:**
+   - These events are initiated by the user's interactions, such as:
+     - Clicking on a button.
+     - Hovering over an element.
+
+In JavaScript, you can harness the power of events to create dynamic and interactive web applications.
+
+In general, there are two ways you can listen to the events either in _HTML inline_ or in _JavaScript_ with _addEventListener_.
+
+> demo : 1_howToWorkWith
+
+# Go to [[Projects]]
