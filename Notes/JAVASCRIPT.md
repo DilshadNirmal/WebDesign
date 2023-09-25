@@ -238,7 +238,7 @@ Bitwise operators perform operations at the binary level on the individual bits 
 - Performs a bitwise AND operation between two integers, returning a new integer with bits set to 1 where both operands have 1. 
 #### Bitwise OR (`|`) 
 - Performs a bitwise OR operation between two integers, returning a new integer with bits set to 1 where either operand has 1. ### Bitwise XOR (`^`) - Performs a bitwise XOR (exclusive OR) operation between two integers, returning a new integer with bits set to 1 where only one operand has 1. 
-#### Bitwise NOT (`~`) 
+#### Negation (`~`) 
 - Performs a bitwise NOT (complement) operation on an integer, flipping the bits. 
 #### Left Shift (`<<`) 
 - Shifts the bits of an integer to the left by a specified number of positions, filling with zeros. 
@@ -249,7 +249,9 @@ Bitwise operators perform operations at the binary level on the individual bits 
 
 These operators are essential for performing low-level bit manipulation and optimizing certain operations in JavaScript.
 
-## If-Else Statement
+## Conditional Statement 
+
+### If-Else Statement
 
 _**if - else statements**_ are essential for any kind of programming and it allows you to execute various blocks of code if a specific condition is met.
 

@@ -1,3 +1,0 @@
-
-
-// ternary operator

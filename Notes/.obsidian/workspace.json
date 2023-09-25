@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects.md",
+                "file": "Intro to HTML & CSS.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects.md",
+                "file": "Intro to HTML & CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects.md",
+                "file": "Intro to HTML & CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects.md"
+                "file": "Intro to HTML & CSS.md"
               }
             }
           },
@@ -160,15 +160,15 @@
   },
   "active": "4a4d6b049bdefb31",
   "lastOpenFiles": [
+    "HTML.md",
     "Projects.md",
     "JAVASCRIPT.md",
+    "Intro to HTML & CSS.md",
     "CSS.md",
-    "HTML.md",
     "images/brendanEich.jpg.crdownload",
     "images/brendanEich.jpg",
     "images/jsByDefault.png",
     "images/Screenshot 2023-09-08 181913.png",
-    "Intro to HTML & CSS.md",
     "images/mediaQuery.png",
     "images/innerouter.png",
     "images/mediaQuery.md",

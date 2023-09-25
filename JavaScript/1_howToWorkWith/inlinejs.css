@@ -96,6 +96,22 @@ div button:hover {
     }
 }
 
+div.links {
+    padding-left: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+div.links a {
+    font-size: 3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+div.links a:hover {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 800px) {
     header {
         display: block;

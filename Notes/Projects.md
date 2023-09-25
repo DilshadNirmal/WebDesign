@@ -13,3 +13,6 @@
 ## Using JavaScript
 
 1. Add a `Back to top` button.
+2. Text-Box `Auto-completion`.
+3. Simple `Content Slider`.
+4. 
