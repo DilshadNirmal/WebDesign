@@ -6,7 +6,7 @@
 
 body {
     background-color: #e1e6fb;
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 header {
@@ -15,61 +15,39 @@ header {
     grid-template-columns: 70% auto;
     place-items: start;
 
-    padding: 3rem 0;
+    padding: 1.5rem 0;
     margin: 2rem 1rem;
 }
 
 header h1 {
     padding: 1rem;
-    margin: 2rem 1rem;
+    margin: 1rem 1rem;
 
     font-family: 'Noto Serif Vithkuqi', sans-serif;
     font-weight: 700;
     font-size: 5rem;
 }
 
-header .empty {
-    width: 20rem;
-    height: 20rem;
-
-    display: grid;
-    place-items: end;
-}
-
-header .empty .stack {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 1rem;
-
-    position: absolute;
-}
-
-header .empty #stack1 {
-    background-color: rgba(135, 153, 255, 0.608);
-    top: 30%;
-    left: 70%;
-}
-
-header .empty #stack2 {
-    background-color: rgba(135, 153, 255, 0.608);
-    top: 15%;
-    left: 80%;
-}
-
-header .empty .placeholder {
-    width: 15rem;
-    height: 15rem;
-    border-radius: 1rem;
+header div.empty div.placeholder {
     background-color: rgba(135, 153, 255, 1);
+
+    width: 15rem;
+    height: 15rem;
+    border-radius: 1rem;
+
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+
+    box-shadow: -3rem -3rem rgba(135, 153, 255, 0.608), 3rem 3rem rgba(135, 153, 255, 0.608);
 }
 
 .container {
-    height: 18rem;
+    height: 10rem;
     display: grid;
     place-items: center;
 }
 
-div button {
+div.container button {
     background-color: rgba(135, 153, 255, 0.608);
     padding: 1rem;
     border: none;
@@ -85,7 +63,7 @@ div button {
     animation: linearGradientMove .3s infinite linear;
 }
 
-div button:hover {
+div.container button:hover {
     background-color: rgba(135, 153, 255, 1);
     animation: linearGradientMove 0s infinite linear;
 }
@@ -113,25 +91,47 @@ div.links a:hover {
 }
 
 @media screen and (max-width: 800px) {
+    section#hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        margin: 1rem .5rem;
+        padding: .4rem 0 5rem 0;
+    }
+
     header {
         display: block;
 
-        height: 22rem;
         padding: 1rem 0;
-        margin: 2rem 1rem;
+        margin: 1rem 1rem;
     }
 
     header h1 {
+        font-size: 4rem;
+
         padding: 1rem;
         margin: 1rem .5rem;
     }
 
     div.container {
-        padding: .5rem 0 0 0;
-        height: 10rem;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+
+        margin-top: 2rem;
+        margin-right: 2.5rem;
+
+        width: 2rem;
     }
 
     header .empty {
         display: none;
+    }
+
+    div.links a {
+        margin: 1rem 0;
+        font-size: 2rem;
     }
 }

@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Inline JavaScript</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline JavaScript</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Handjet&family=Lato:wght@300;400;700&family=Noto+Serif+Vithkuqi&family=Oswald:wght@500&family=Poppins:ital@1&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Handjet&family=Lato:wght@300;400;700&family=Noto+Serif+Vithkuqi&family=Oswald:wght@500&family=Poppins:ital@1&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 
-        <link rel="stylesheet" href="inlinejs.css">
+    <link rel="stylesheet" href="inlinejs.css">
 
-    </head>
-    <body>
+    <script src="/JavaScript/3_dataTypes/objects.js"></script>
+</head>
+<body>
 
+    <section id="hero">
         <header>
             <h1>learn javascript through examples 🏫</h1>
             <div class="empty">
                 <div class="placeholder"></div>
-                <div class="stack" id="stack1"></div>
-                <div class="stack" id="stack2"></div>
             </div>
         </header>
-
-        <div class="container">
-            <button type="button">Click Me</button>
-        </div>
-
-        <div class="links">
-            <a href="../8_selectors/selector.html">selectors</a>
-            <a href="../../HTML&CSS/16_landingPage/landingPage.html">Landing Page</a>
-        </div>
         
-    </body>
+        <div class="container" id="cont">
+            <button type="button" id="submitBtn" onclick="alert('this is an alert from inline javascript')">Click Me</button>
+        </div>
+    </section>
+
+    <div class="links">
+        <a href="/JavaScript/8_selectors/selector.html">selectors</a>
+        <a href="/HTML&CSS/16_landingPage/landingPage.html">Landing Page</a>
+        <a href="../10_contentSlider/contentSlider.html">Content Slider</a>
+    </div>
+
+    <script>
+        console.log(5+'df')
+    </script>
+
+    <!-- external scripts to see in browser -->
+    
+
+</body>
 </html>
