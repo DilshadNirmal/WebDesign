@@ -26,6 +26,8 @@
 
 ### What is JavaScript
 
+_Javascript_  - a _high level, single threaded, garbage collected, interpreted || JIT compiled, prototype based, multi-paradigm, dynamic language with a non blocking event loop._
+
 _Javascript_ is a _programming language_. Javascript can run locally in your _browser_ but it can also run on a server using _node.js_.
 
 Regardless on how you work on it **javascript** is one of the three core technologies used to produce content for the _world wide web_. The other two are `of course` [[HTML]] and [[CSS]].

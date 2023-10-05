@@ -14,6 +14,38 @@
 
 		<style>
 			
+			.wrapper {
+				/* Don't worry about what flex means. */
+				/* It's simply here for demo purposes. */
+				display: flex;
+				gap: 2rem;
+			}
+			
+			div.widget {
+				width: 100%;
+				/* width: auto; */
+				min-width: 250px;
+				max-width: 350px;
+			}
+
+			div.widget .main-icon {
+				width: 5rem;
+			}
+
+			div.widget p img {
+				width: 1.8rem;
+			}
+
+			div.widget a img {
+				width: 1rem;
+			}
+
+			/* a tag is a inline level elemtent */
+			/* div.widget a {
+				display: inline-block;
+				height: 10rem;
+				width: 5rem;
+			} */
 			
 		</style>
 	</head>
@@ -21,7 +53,31 @@
 		<section class="learn">
 			<!-- Practice area start -->
 
-			
+			<h1>Dashboard</h1>
+
+			<div class="wrapper">
+				<div class="widget">
+					<img src="../images/example/icon-money.svg" alt="Icon" class="main-icon">
+					<h2>$4,502</h2>
+					<p>Earned this month</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+6.05% <span>than last month</span></p>
+					<a href="#">Earnings <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-sales.svg" alt="Icon" class="main-icon">
+					<h2>22</h2>
+					<p>New Sales</p>
+					<p><img src="../images/example/icon-arrow-green.svg" alt="Arrow green">+16.64% <span>than last month</span></p>
+					<a href="#">Sales <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a>
+				</div>
+				<div class="widget">
+					<img src="../images/example/icon-chat.svg" alt="Icon" class="main-icon"> 
+					<h2>7</h2>
+					<p>New comments</p>
+					<p><img src="../images/example/icon-arrow-red.svg" alt="Arrow red"> -19% <span>than last month</span></p>
+					<a href="#">Comments <img src="../images/example/icon-arrow-right.svg" alt="Arrow right"></a>
+				</div>
+			</div>
 
 			<!-- Practice area end -->
 		</section>

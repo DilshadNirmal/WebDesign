@@ -15,4 +15,5 @@
 1. Add a `Back to top` button.
 2. Text-Box `Auto-completion`.
 3. Simple `Content Slider`.
-4. 
+4. image-`lightbox`.
+5. `tabs`.

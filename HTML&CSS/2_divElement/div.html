@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Div Element and CSS units</title>
 
-    <link rel="stylesheet" href="/css/presentation.css">
+    <link rel="stylesheet" href="../css/presentation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Handjet&family=Noto+Serif+Vithkuqi&family=Poppins:ital@1&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Handjet&family=Noto+Serif+Vithkuqi&family=Poppins:ital@1&display=swap" rel="stylesheet">
 
     <style>
         /* styling for demo purpose */
-        section>div {
+        /* section>div {
             background-color: rgb(179, 215, 215);
             display: flex;
             margin-bottom: 1rem;
@@ -23,9 +21,35 @@
 
         div div {
             background-color: rgb(142, 181, 181);
-        }
+        } */
 
         /*styling for the divs*/
+
+        /* universal selector */
+        html {
+            font-size: 18px;
+        }
+
+        .card {
+            color: white;
+            width: 350px;
+            font-size: 28px;
+            padding: 1.5rem 2rem;
+            /* border-radius: 8px; */
+        }
+
+        #total {
+            background-color: rgba(19, 42, 59, 1);
+        }
+
+        #sale {
+            background-color: hsl(203, 81%, 25%);
+        }
+
+        #rental {
+            background-color: #f66a11;
+        }
+        
     </style>
 </head>
 
@@ -34,7 +58,29 @@
     <!-- pratice area -->
     <section class="learn">
 
+        <div class="card" id="total">
+            <img src="../images/example/house-chimney.svg" alt="house-chimney">
+            <div>
+                510
+                properties in total
+            </div>
+        </div>
 
+        <div class="card" id="sale">
+            <img src="../images/example/cart-plus.svg" alt="cart-plus">
+            <div>
+                253
+                properties for sale
+            </div>
+        </div>
+
+        <div class="card" id="rental">
+            <img src="../images/example/user-check.svg" alt="user-check">
+            <div>
+                257
+                properties for rental
+            </div>
+        </div>
 
     </section>
 

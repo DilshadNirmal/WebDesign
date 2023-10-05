@@ -13,14 +13,48 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
 
 		<style>
-			
+			input {
+				background-color: aqua;
+			}
+
+			input[type="password"] {
+				background-color: beige;
+			}
+
+			form button {
+				background-color: blue;
+			}
 		</style>
 	</head>
 	<body>
 		<section class="learn">
 			<!-- Practice area start -->
 
-			
+			<h1>Register a New Account</h1>
+
+			<form action="" method="post">
+				<div>
+					<label for="register-email">Email address</label>
+					<input type="email" name="register-email" id="register-email" value="chuck@roundhouse.com" disabled>
+				</div>
+
+				<div>
+					<label for="register-name">Name</label>
+					<input type="text" name="register-name" id="register-name" placeholder="Your full name">
+				</div>
+
+				<div>
+					<label for="register-password">Password</label>
+					<input type="password" name="register-password" id="register-password">
+				</div>
+
+				<div>
+					<label for="register-c-password">Confirm Password</label>
+					<input type="password" name="register-c-password" id="register-c-password">
+				</div>
+
+				<button>Register Account</button>
+			</form>
 
 			<!-- Practice area end -->
 		</section>
