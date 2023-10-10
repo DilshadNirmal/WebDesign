@@ -303,14 +303,14 @@ Have a Look at the CSS box model,..
 
 The above mentioned `Box model` is the standard one, which can be done through CSS using,
 
-> _box-sizing_ = **content-box**
+> _box-sizing_ : **content-box**
 
 which is default.
 
 So in the standard box model, which is used by default, setting a width or a height to an element actually sets it to the content box, not the element itself.
 
 >[!ADVICE]
->Always use alternative box model
+>Always use alternative box model - **border-box**
 
 ### Margin and Padding properties
 

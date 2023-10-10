@@ -20,6 +20,26 @@
 				display: flex;
 				gap: 24px;
 				align-items: center;
+
+				background-color: #F5FBFA;
+				border-left: 8px solid #00B29C;
+				padding-top: 16px;
+				padding-bottom: 16px;
+				padding-left: 32px;
+				padding-right: 32px;
+				width: 400px;
+
+				/*box model*/
+				/*
+					normal box model - content box
+					alternative box model - border box
+				*/
+
+				box-sizing: content-box;
+			}
+
+			.todo.alternative {
+				box-sizing: border-box;
 			}
 
 		</style>
