@@ -24,7 +24,6 @@ body {
     border: 1px solid rgba(54, 65, 69, 0.3);
     border-radius: 4px;
     padding: 2rem;
-    /* position: relative; */
 }
 
 .set h1 {
@@ -58,9 +57,9 @@ body {
 
 .static .highlight {
     background-color: var(--color-1);
-    /* position: static; */
-    /* top: 100px;
-    left: 100px; */
+    position: static;
+    top: 0;
+    left: 2rem;
 }
 
 .relative {
@@ -69,9 +68,9 @@ body {
 
 .relative .highlight {
     background-color: var(--color-2);
-    /* position: relative;
-    top: 30px;
-    left: 40px; */
+    position: relative;
+    top: 2rem;
+    left: 5rem;
 }
 
 .absolute {
@@ -80,9 +79,9 @@ body {
 
 .absolute .highlight {
     background-color: var(--color-3);
-    /* position: absolute;
-    top: 50px;
-    left: -100px; */
+    position: absolute;
+    top: 0rem;
+    right: 0;
 }
 
 .fixed {
@@ -91,9 +90,9 @@ body {
 
 .fixed .highlight {
     background-color: var(--color-4);
-    /* position: fixed;
-    top: 40%;
-    right: 90px; */
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
 }
 
 .sticky {
@@ -101,10 +100,10 @@ body {
     border-left: 4px solid var(--color-5);
 }
 
-/* .sticky ul {
+.sticky ul {
     position: sticky;
-    top: 20px;
-} */
+    top: 1rem;
+}
 
 .sticky ul li {
     background-color: var(--color-5);
