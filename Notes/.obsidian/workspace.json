@@ -23,8 +23,12 @@
             "id": "20c86c1182082d28",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "JAVASCRIPT.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "JAVASCRIPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "JAVASCRIPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "JAVASCRIPT.md"
+              }
             }
           },
           {
