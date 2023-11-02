@@ -13,14 +13,24 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
 
 		<style>
-			* {
-				box-sizing: border-box;
-			}
+
+			/* the props */
+			@import "https://unpkg.com/open-props";
+
+			/* optional imports that use the props */
+			@import "https://unpkg.com/open-props/normalize.min.css";
+			@import "https://unpkg.com/open-props/buttons.min.css";
 
 			body {
 				font-family: 'Poppins', sans-serif;
-				color: rgb(19, 42, 59);
+				color: rgb(16, 35, 26);
+				background-color: white;
 			}
+			/* * {
+				box-sizing: border-box;
+			}
+
+			
 
 			.learn {
 				padding: 4rem;
@@ -52,7 +62,7 @@
 				list-style: none;
 				padding: 0;
 
-                /* layouts */
+                /
                 display: flex;
                 gap: 2rem;
 			}
@@ -70,7 +80,7 @@
 				border-radius: 100px;
 				padding: 1rem 2rem;
 
-                /* layouts */
+                
                 display: inline-flex;
                 align-items: center;
                 gap: .5rem;
@@ -85,13 +95,13 @@
 			header {
 				margin-bottom: 6rem;
 
-                /* layouts */
+                
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
 			}
 
-            /* layout */
+           
             .hero {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
@@ -103,16 +113,13 @@
 				max-width: 100%;
 			}
 
-			/* media queries */
+			
 			.btn-mobile {
 				display: none;
 			}
 
 			@media screen and (max-width: 1000px) {
-				/* header {
-					position: sticky;
-					top: 10px;
-				} */
+				
 				
 				header nav,
 				header .btn {
@@ -124,7 +131,7 @@
 				}
 
 				.hero {
-					grid-template-columns: 100%; /*1fr*/
+					grid-template-columns: 100%; 
 					gap: 2.5rem;
 				}
 
@@ -148,7 +155,7 @@
 					font-size: 1rem;
 				}
 
-			}
+			} */
 		</style>
 	</head>
 	<body class="flip">
