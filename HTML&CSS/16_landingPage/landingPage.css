@@ -203,7 +203,7 @@ form textarea {
     padding: 0.8rem;
     width: 90%;
     color: rgb(252, 252, 252);
-    resize: none;
+    /* resize: none; */
 }
 
 form input:focus,
@@ -256,4 +256,74 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+footer #back-2-top {
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    background-color: rgba(252, 252, 252, 0.804);
+    padding: .6rem;
+    border: none;
+    border-radius: .4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, .254);
+    transition: all .3s ease-in-out;
+    display: inline-block;
+    opacity: 0;
+    font-size: .75rem;
+}
+
+#back-2-top:hover {
+    padding: .8rem 1.2rem;
+}
+
+#back-2-top.visible {
+    opacity: 1;
+}
+
+@media screen and (max-width: 700px) {
+    h1,
+    h3.large {
+        font-size: 2.3rem;
+    }
+
+    h2,
+    p.large {
+        font-size: 1.3rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .container.small {
+        width: 85%;
+    }
+
+    #main-header,
+    section {
+        padding: 5rem 0;
+    }
+
+    footer {
+        padding: 2.5rem 0;
+    }
+
+    p.large + .social-icons {
+        margin-top: 3.5rem;
+    }
+
+    #main-header h1 {
+        margin-top: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }
