@@ -8,22 +8,22 @@
 *---------------------------------------------------------- 
 */
 
-let btn = document.getElementById('back-2-top'),
+var btn = document.getElementById('back-to-top'),
     body = document.body,
     docElem = document.documentElement,
     offset = 100,
-    scrollPos, docHeight;
+    scrollPos, docHeight,
+    isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 
 // Calculate the document height
 /*
 *   Note: 
 *   firefox and webkit returns the document height differently. 
 */
-
-docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.scrollHeight, docElem.offsetHeight, docElem.clientHeight);
+docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight, docElem.scrollHeight, docElem.offsetHeight);
 
 if (docElem !== 'undefined') {
-    offset = docElem / 4;
+    offset = docHeight / 4;
 }
 
 // Add scroll event listener

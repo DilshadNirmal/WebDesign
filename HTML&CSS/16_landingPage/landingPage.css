@@ -258,7 +258,7 @@ footer p {
     text-align: center;
 }
 
-footer #back-2-top {
+footer #back-to-top {
     position: fixed;
     bottom: 3rem;
     right: 2rem;
@@ -276,11 +276,11 @@ footer #back-2-top {
     font-size: .75rem;
 }
 
-#back-2-top:hover {
+#back-to-top:hover {
     padding: .8rem 1.2rem;
 }
 
-#back-2-top.visible {
+#back-to-top.visible {
     opacity: 1;
 }
 
