@@ -10,7 +10,8 @@
 /* typography */
 
 html {
-    font-size: 18px
+    font-size: 18px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -95,4 +96,164 @@ form button {
     font-family: 'poppins', sans-serif;
     font-size: 1rem;
     line-height: 1.55;
+}
+
+/* layouts */
+
+/* container */
+
+div.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+div.container.small {
+    width: 60%;
+    max-width: 35rem;
+}
+
+/* header */
+
+#main-header,
+section {
+    padding: 10rem 0;
+    text-align: center;
+}
+
+#main-header h1 {
+    margin: 6rem 0 1rem;
+}
+
+#main-header h2 {
+    margin-bottom: 6rem;
+}
+
+.btn {
+    padding: 1.3rem 3.5rem;
+    border: 1px solid rgb(159, 118, 87);
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: rgb(252, 252, 252);
+    background-color: rgb(60, 58, 71);
+    border: rgb(60, 58, 71);
+}
+
+/* chair section */
+
+#our-chairs {
+    background-color: #eff0ea;
+}
+
+section header {
+    margin-bottom: 3.5rem;
+}
+
+h3 + p {
+    max-width: 35rem;
+    margin: 0 auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3.5rem;
+    margin-bottom: 3.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery div {
+    text-align: start;
+}
+
+.gallery img {
+    margin-bottom: 1.3rem;
+}
+
+/* contact */
+
+.dark {
+    background-color: rgb(60, 58, 71);
+}
+
+.dark label {
+    color: rgb(252, 252, 252);
+}
+
+form div {
+    margin-bottom: 1.75rem;
+}
+
+form label {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: start;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    background-color: rgba(252, 252, 252, 0.201);
+    border: none;
+    padding: 0.8rem;
+    width: 90%;
+    color: rgb(252, 252, 252);
+    resize: none;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    background-color: rgb(255, 255, 255, .35);
+}
+
+form button {
+    width: 90%;
+    cursor: pointer;
+}
+
+.dark .btn {
+    border: 1px solid rgb(255, 255, 255, .8);
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.dark .btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 58, 71);
+}
+
+.muted {
+    color: rgb(255, 255, 255, .5);
+}
+
+form button + p {
+    margin-top: 1.75rem;
+}
+
+/* store */
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+p.large +.social-icons {
+    margin-top: 7rem;
+}
+
+footer {
+    padding: 5rem 0;
+}
+
+footer p {
+    text-align: center;
 }
